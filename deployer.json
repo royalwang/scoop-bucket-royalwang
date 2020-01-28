@@ -4,7 +4,7 @@
     "description": "Deployer Manager for PHP",
     "license": "MIT",
     "url": "https://deployer.org/releases/v6.7.3/deployer.phar",
-    "hash": "a00dd2c9e09e8d809ae14ad695578181a177cea7",
+    "hash": "cd0dc83247d8cc5e65cde437b20f075c12283e80237d7bfd14f8d8d557fbf515",
     "pre_install": [
         "@(",
         "    'if ($args.length -eq 1 -and ($args -eq \"self-update\" -or $args -eq \"self-update\")) { & scoop update deployer }'",
