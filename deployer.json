@@ -15,7 +15,10 @@
         "    Move-Item \"$env:Appdata\\Deployer\" \"$persist_dir\\home\" -Force",
         "}"
     ],
-    "bin": "deployer.ps1",
+    "bin": [
+        "deployer.ps1",
+        ["deployer.ps1", "dep"]
+    ],
     "env_set": {
         "COMPOSER_HOME": "$persist_dir\\home"
     },
